@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const database = require('./database.js');
+const database = require('./db.js');
 const app = express();
 
 // Express.json() is middleware that allows use of req.body from incoming requests

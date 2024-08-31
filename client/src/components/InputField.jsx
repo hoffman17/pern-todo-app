@@ -25,7 +25,7 @@ const InputField = () => {
   return (
     <>
       <h3 className='text-center mt-5'>Pern Todo List</h3>
-      <form className='d-flex mt-5' onSubmit={handleSubmitForm}>
+      <form className='d-flex mt-5 gap-2' onSubmit={handleSubmitForm}>
         <input type="text" className='form-control' placeholder='Add description...' value={description} onChange={(e) => setDescription(e.target.value)} required/>
         <button className='btn btn-lg btn-primary' type='submit'>Add</button>
       </form>
